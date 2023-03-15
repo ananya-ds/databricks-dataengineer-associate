@@ -15,4 +15,9 @@ df.withColumn("sqrt", round(sqrt(col("id")),2)).show()
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC select "I am a Data Engineer"
+
+# COMMAND ----------
+
 
